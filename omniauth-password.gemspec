@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", ">= 4.0.0", "< 5.1"
   s.add_runtime_dependency "omniauth", "~> 1.0"
-  s.add_runtime_dependency "bcrypt-ruby", "~> 3.0"
+  s.add_runtime_dependency "bcrypt", "~> 3.1"
 
 
   s.add_development_dependency "sqlite3"
