@@ -32,9 +32,8 @@ module OmniAuth
       end
 
       uid do
-        user.password_digest
+        user.send(options[:login_field])
       end
-
     end
   end
 end
